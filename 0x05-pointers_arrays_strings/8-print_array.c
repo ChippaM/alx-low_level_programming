@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
-* function prints n elements of an array of integers, followed by a new line.
+/**
+*print_array - prints n number of elements of an array
+*@a: pointer to array
+*@n: number of elements
 */
 
 void print_array(int *a, int n)
@@ -21,4 +23,4 @@ void print_array(int *a, int n)
 		}
 	}
 	printf("\n");
-}
+}}
